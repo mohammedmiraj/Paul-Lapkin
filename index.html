@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Rerured Meta Tag-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=PA">
+  <!-- Title-->
+  <title>Paul Lapkin</title>
+  <!-- Favicon Link-->
+  <link rel="shortcut icon" href="resources/img/favicon.png">
+  <!-- Css Link-->
+  <link rel="stylesheet" href="vendors/css/uikit.min.css">
+  <link rel="stylesheet" href="vendors/css/normalize.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="resources/css/queries.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header id="hero" class="scrollify">
+    <nav uk-sticky="top: 300;">
+      <div class="row">
+        <img src="resources/img/logo.png" alt="paul" class="logo">
+        <a class="nav-icon" onclick="openMenu()"><ion-icon name="menu-outline"></ion-icon></a>
+      </div>
+      <div class="menu-container" id="navbar" onclick="closeMenu()">
+        <div class="close-btn" onclick="closeMenu()">
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <div class="menu-item">
+          <ul>
+            <li><a onclick="closeMenu()" href="#hero">Home</a></li>
+            <li><a onclick="closeMenu()" href="#about">About</a></li>
+            <li><a onclick="closeMenu()" href="#process">Process</a></li>
+            <li><a onclick="closeMenu()" href="#experiance">Experiance</a></li>
+            <li><a onclick="closeMenu()" href="#portfolio">Portfolio</a></li>
+            <li><a onclick="closeMenu()" href="#tetsimonial">Testimonial</a></li>
+            <li><a onclick="closeMenu()" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero-test-box">
+      <h1>Miraj Malik</h1>
+      <span>#User Experience  #Music  #Creative Direction</span>
+    </div>
+    <div class="scroll-down">
+      <a href="#about">
+        <ion-icon name="chevron-down-outline"></ion-icon>
+      </a>
+    </div>
+  </header>
+
+  <!-- About Section --> 
+  <section id="about" class="scrollify">
+    <div class="row">
+      <div class="grid-about-container">
+        <div class="grid-about-item">
+          <img src="resources/img/paul.jpg" alt="miraj" class="miraj">
+        </div>
+        <div class="grid-about-item grid-item">
+          <p class="intro">Hi, i’m Miraj Malik, Experience Crafter from Canada.</p>
+          <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat. <br><br>
+
+          Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illumdolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blanditpraesent luptatum zzril delenit augue duis dolore.</p>
+          <div class="about-cta-button">
+            <a href="#" class="btn btn-full">hire me!</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section id="process" class="scrollify">
+    <div class="row">
+      <div class="section-title">
+        <h2>My Working Process</h2>
+        <p>Hi, i’m Miraj Malik, Experience Crafter from Canada.</p>
+      </div>
+      <div class="grid-process-container">
+        <div class="grid-process-item">
+          <ion-icon name="desktop-outline"></ion-icon>
+          <h4>Design</h4>
+        </div>
+        <div class="grid-process-item">
+          <ion-icon name="star-outline"></ion-icon>
+          <h4>Development</h4>
+        </div>
+        <div class="grid-process-item">
+          <ion-icon name="navigate-outline"></ion-icon>
+          <h4>Testing</h4>
+        </div>
+        <div class="grid-process-item">
+          <ion-icon name="airplane-outline"></ion-icon>
+          <h4>Launch</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiance Section -->
+  <section id="experiance" class="scrollify">
+    <div class="row">
+      <div class="grid-experiance-container">
+        <div class="grid-experiance-itams">
+          <h3>Work Experience</h3>
+          <div class="job">
+            <h4>Mad Max Design</h4>
+            <span>OCT 2013 - june 2014</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+          <hr>
+          <div class="job">
+            <h4>Crazy Design</h4>
+            <span>OCT 2013 - june 2014</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+        </div>
+        <div class="grid-education-itams">
+          <h3>Education</h3>
+          <div class="education">
+            <h4>Maddison University</h4>
+            <span>OCT 2013 - june 2014</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+          <hr>
+          <div class="education">
+            <h4>Max Design & Art Institute</h4>
+            <span>OCT 2013 - Present</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="scrollify">
+    <div class="row">
+      <div class="section-title">
+        <h2>My Latest Works</h2>
+        <p>Hi, i’m Miraj Malik, Experience Crafter from Canada.</p>
+      </div>
+      <div class="portfolio-filter">
+        <button type="button" data-filter="all" data-filter="all">All</button>
+        <button type="button" data-filter=".web-design">Web Design</button>
+        <button type="button" data-filter=".web-dev">Web Development</button>
+        <button type="button" data-filter=".wp">Wordpress</button>
+      </div>
+      <div class="grid-portfolio-container" uk-lightbox="animation: scale">
+        <div class="grid-portfolio-item mix wp">
+          <a href="resources/img/PWL1.jpg">
+            <img src="resources/img/PWS1.jpg" alt="Portfolio">
+          </a>
+        </div>
+        <div class="grid-portfolio-item mix web-dev">
+          <a href="resources/img/PWL2.jpg">
+            <img src="resources/img/PWS2.jpg" alt="Portfolio">
+          </a>
+        </div>
+        <div class="grid-portfolio-item mix wp">
+          <a href="resources/img/PWL3.jpg">
+            <img src="resources/img/PWS3.jpg" alt="Portfolio">
+          </a>
+        </div>
+        <div class="grid-portfolio-item mix web-design">
+          <a href="resources/img/PWL4.jpg">
+            <img src="resources/img/PWS4.jpg" alt="Portfolio">
+          </a>
+        </div>
+        <div class="grid-portfolio-item mix web-dev">
+          <a href="resources/img/PWL5.jpg">
+            <img src="resources/img/PWS5.jpg" alt="Portfolio">
+          </a>
+        </div>
+        <div class="grid-portfolio-item mix web-design">
+          <a href="resources/img/PWL6.jpg">
+            <img src="resources/img/PWS6.jpg" alt="Portfolio">
+          </a>
+        </div>
+        <div class="grid-portfolio-item mix wp">
+          <a href="resources/img/PWL7.jpg">
+            <img src="resources/img/PWS7.jpg" alt="Portfolio">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section-->
+  <section id="tetsimonial" class="scrollify">
+    <div class="row">
+      <div class="grid-testimonial-container">
+        <div class="grid-testimonial-item">
+          <div class="quote">
+            <img src="resources/img/quote.png" alt="quote">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+          <div class="signature">
+            <img src="resources/img/signature.png" alt="signature">
+          </div>
+          <h4>Deniel Croft</h4>
+          <span>Creative Designer, Levy</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section-->
+  <section id="contact" class="scrollify">
+    <div class="row">
+      <div class="grid-contact-container">
+        <div class="grid-contact-items">
+          <h3>Leave a message</h3>
+          <form action="#" method="POST">
+            <div class="single-form">
+              <input type="text" placeholder="Name" required>
+            </div>
+            <div class="single-form">
+              <input type="email" placeholder="Email" required>
+            </div>
+            <div class="single-form">
+              <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="single-form">
+              <textarea cols="30" rows="10" placeholder="Message" required></textarea>
+            </div>
+            <div class="single-form-btn">
+              <input class="btn btn-full" type="submit" value="hire me!">
+            </div>
+          </form>
+        </div>
+        <div class="grid-contact-items nested-grid-contact-container">
+          <div class="nested-grid-contact-items">
+            <h3>address</h3>
+            <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+          </div>
+          <div class="nested-grid-contact-items">
+            <h3>phone</h3>
+            <p>+880 174 037 6995 <br> +880 191 448 6969</p>
+          </div>
+          <div class="nested-grid-contact-items">
+            <h3>web</h3>
+            <p>Mail: quicksayed@gmail.com <br> Website: dribbble.com/alisayed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Fotter Section -->
+  <footer id="footer"class="scrollify">
+    <div class="row">
+      <div class="social-icons">
+        <ul>
+          <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-dribbble"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+      </div>
+      <div class="copy-right">
+      <p>Copyright: Miraj Malik, All Rights Reserved.</p>
+      <div class="totop">
+        <a href="#" uk-totop uk-scroll></a>
+      </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Js Script-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script src="vendors/js/uikit.min.js"></script>
+  <script src="vendors/js/uikit-icons.min.js"></script>
+  <script src="vendors/js/particles.min.js"></script>
+  <script src="vendors/js/app.js"></script>
+  <script src="vendors/js/mixitup.min.js"></script>
+  <script src="vendors/js/jquery.scrollify.js"></script>
+  <script src="resources/js/script.js"></script>
+</body>
+</html>
